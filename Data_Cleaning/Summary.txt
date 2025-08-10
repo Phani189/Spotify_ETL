@@ -1,0 +1,9 @@
+Data Cleaning and Export
+All the specified JSON data files have been loaded, cleaned according to the requirements, and saved as cleaned CSV files.
+
+The cleaning steps included:
+
+Handling null and empty values by dropping rows or replacing with appropriate values (like 'Not Provided', 'Unknown', or calculated averages).
+Standardizing case for categorical columns.
+Converting columns to appropriate data types (e.g., datetime, integer, numeric).
+Replacing specific inappropriate string values with numerical values or placeholders.

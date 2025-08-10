@@ -1,0 +1,800 @@
+song_id,name,album,album_id,artist_id,duration,genre
+1,Just build later.,Pull,37,14,16,Jazz
+2,Measure drop exist.,Information,103,40,16,Hip-hop
+3,How.,Clear,82,32,18,Rock
+4,Operation arm arm.,Team,85,33,18,Rock
+5,Yard so increase must.,Allow,39,16,16,Electronic
+6,Suffer fund.,Able,70,26,20,Electronic
+7,Ground at everything.,Represent,20,7,11,Pop
+8,Raise affect against.,International,99,39,16,Hip-hop
+9,Meeting minute him.,Full,12,4,16,Electronic
+10,Ok nature industry.,Team,85,33,16,Rock
+11,Fund once.,Water,84,32,16,Rock
+12,Street turn.,Wait,77,29,13,Jazz
+13,Much actually whom father.,International,99,39,17,Hip-hop
+14,Behavior choose star.,Across,97,38,16,Jazz
+15,Ago production.,Program,89,35,20,Hip-hop
+16,Here vote.,Responsibility,9,4,25,Electronic
+17,Course exist body.,Water,84,32,7,Rock
+18,Any management.,Room,40,16,19,Electronic
+19,Current memory.,Item,80,31,16,Classical
+20,Test memory movement.,Both,14,5,16,Rock
+21,His someone company.,Sport,7,3,20,Hip-hop
+22,Each fall commercial.,Happy,6,2,16,Rock
+23,Improve field what.,Place,75,29,14,Jazz
+24,American thought tell.,Head,56,21,9,Electronic
+25,Move report protect.,Central,101,40,12,Hip-hop
+26,Soldier treat method.,Gun,61,23,16,Hip-hop
+27,Call best despite.,Notice,72,27,25,Jazz
+28,Mother many ahead.,Dark,92,36,16,Jazz
+29,Much partner language today.,Might,15,5,24,Rock
+30,Something agency now.,Item,80,31,23,Classical
+31,Woman way.,Water,84,32,14,Rock
+32,Stay production.,Girl,49,19,16,Classical
+33,Just record back hard.,Hope,57,22,16,Pop
+34,Consumer term eye.,Increase,74,28,16,Electronic
+35,Expect recently culture.,Story,76,29,16,Jazz
+36,Away air.,Then,36,14,24,Jazz
+37,Whether economy break.,Information,10,4,16,Electronic
+38,Walk time.,Write,98,38,16,Jazz
+39,Family the.,Head,56,21,9,Electronic
+40,Treat already nearly.,Then,36,14,9,Jazz
+41,Parent detail treatment.,Team,85,33,10,Rock
+42,Through ok.,Career,1,1,25,Melody
+43,Popular point guess.,Media,2,1,16,Melody
+44,Reduce thought interest.,Might,15,5,16,Rock
+45,Shake process.,Gun,61,23,21,Hip-hop
+46,Make listen.,Especially,18,6,16,Pop
+47,Memory send politics sit.,Pull,37,14,15,Jazz
+48,Let mind.,Ground,38,15,16,Pop
+49,Investment over senior.,When,24,10,16,Classical
+50,Should better full meet.,Gun,61,23,24,Hip-hop
+51,Without positive.,Sport,7,3,21,Hip-hop
+52,Before.,When,24,10,9,Classical
+53,West interview.,Wife,41,16,16,Electronic
+54,Professional form.,Sport,7,3,14,Hip-hop
+55,Rate own right same.,Both,14,5,16,Rock
+56,Page vote international.,Officer,28,11,16,Classical
+57,Meet culture yourself.,When,24,10,12,Classical
+58,Wrong country now.,Yourself,83,32,24,Rock
+59,Clearly ready attention.,Team,85,33,25,Rock
+60,Yet.,Especially,18,6,16,Pop
+61,Investment carry.,Even,23,9,20,Melody
+62,Increase image generation.,Ground,38,15,21,Pop
+63,Page until rest.,Item,80,31,16,Classical
+64,Scene letter compare.,Even,23,9,16,Melody
+65,Whose success their.,Wife,41,16,16,Electronic
+66,Concern present scene.,Even,95,37,16,Jazz
+67,Fall weight seek.,Budget,26,11,16,Classical
+68,Picture goal.,Those,13,5,20,Rock
+69,Letter board himself.,Executive,87,35,6,Hip-hop
+70,Bank put.,Team,85,33,18,Rock
+71,Ground system southern.,Box,44,17,5,Melody
+72,Care accept like.,Worker,73,27,16,Jazz
+73,Politics suffer.,Even,23,9,16,Melody
+74,Notice want.,Box,44,17,16,Melody
+75,Peace once.,Able,70,26,10,Electronic
+76,Doctor no.,Save,29,12,16,Classical
+77,Draw lay.,Every,100,40,23,Hip-hop
+78,Ground purpose thing.,Responsibility,9,4,19,Electronic
+79,Sure room me experience.,Region,22,9,16,Melody
+80,Line expert light.,Any,86,34,5,Jazz
+81,Avoid some section.,Director,30,12,22,Classical
+82,Cultural worry money.,Knowledge,79,30,16,Pop
+83,Instead crime.,List,102,40,23,Hip-hop
+84,Pay free.,Happy,6,2,5,Rock
+85,Bed.,Friend,27,11,16,Classical
+86,Difficult color black.,Both,14,5,5,Rock
+87,Reduce owner ready.,Us,51,19,16,Classical
+88,Thousand goal school.,Those,13,5,8,Rock
+89,Event while for.,Notice,72,27,16,Jazz
+90,Reduce put any.,Might,15,5,16,Rock
+91,Rise miss back.,Responsibility,9,4,5,Electronic
+92,Buy.,Happy,6,2,16,Rock
+93,Sport though here.,Allow,39,16,25,Electronic
+94,Account financial.,As,21,8,16,Electronic
+95,Tree religious.,Happy,6,2,16,Rock
+96,Tonight at manage.,Gun,61,23,16,Hip-hop
+97,Positive boy buy.,Ground,38,15,24,Pop
+98,Resource there.,Wait,77,29,17,Jazz
+99,Lay fly age.,Team,85,33,16,Rock
+100,Program rate type.,Write,98,38,16,Jazz
+101,Training.,Wrong,8,4,16,Electronic
+102,Could.,Song,25,10,17,Classical
+103,Lawyer church.,Budget,26,11,16,Classical
+104,Care meet training.,Us,51,19,7,Classical
+105,Pick.,International,99,39,23,Hip-hop
+106,It yeah.,Pressure,3,1,12,Melody
+107,Attack people.,Team,85,33,15,Rock
+108,I rise.,Happy,6,2,8,Rock
+109,Serve those in.,Yourself,83,32,16,Rock
+110,Heavy everything cell.,Worker,73,27,22,Jazz
+111,State society other.,Foreign,60,22,10,Pop
+112,Cut send.,Officer,28,11,16,Classical
+113,Cause do eye.,Box,44,17,16,Melody
+114,Kid.,Any,86,34,16,Jazz
+115,Office process.,Increase,74,28,6,Electronic
+116,Media meet.,Role,94,37,12,Jazz
+117,Star painting.,Worker,73,27,6,Jazz
+118,Include relationship money brother.,Role,94,37,16,Jazz
+119,Like green public.,Water,84,32,16,Rock
+120,Buy resource.,Director,30,12,16,Classical
+121,Pick matter thing kid.,Ground,38,15,13,Pop
+122,Mother design.,Box,44,17,18,Melody
+123,Available board.,Room,40,16,16,Electronic
+124,Control kind night.,Happy,6,2,16,Rock
+125,Make beautiful.,Head,56,21,7,Electronic
+126,Present health report.,Item,80,31,24,Classical
+127,Blood article result.,Foreign,60,22,22,Pop
+128,Decade way maintain.,Wife,41,16,16,Electronic
+129,Whom music.,Increase,74,28,16,Electronic
+130,Sense share.,Sport,7,3,16,Hip-hop
+131,Seem know middle.,Clear,82,32,21,Rock
+132,Plan these.,Foreign,60,22,20,Pop
+133,Machine return.,Team,85,33,16,Rock
+134,Describe environment our.,Media,2,1,19,Melody
+135,Week writer.,Arm,55,21,16,Electronic
+136,Middle job.,Friend,27,11,16,Classical
+137,Collection toward half.,Doctor,54,20,16,Hip-hop
+138,Strong house quality.,Foreign,60,22,9,Pop
+139,Above hotel.,Those,13,5,25,Rock
+140,Cover join notice.,Item,80,31,9,Classical
+141,Leader itself each.,Able,70,26,16,Electronic
+142,Meet check down.,Probably,66,24,22,Classical
+143,Decade along point.,Budget,26,11,16,Classical
+144,Last low discover wife.,Avoid,16,6,22,Pop
+145,Bad commercial age card.,Probably,64,24,16,Classical
+146,At question information.,Under,42,16,16,Electronic
+147,Go back.,Professional,67,25,16,Hip-hop
+148,Couple should.,Hope,57,22,19,Pop
+149,Begin.,Ground,38,15,5,Pop
+150,Firm call somebody.,Increase,74,28,16,Electronic
+151,Bar a commercial.,Role,94,37,16,Jazz
+152,Claim theory grow.,Information,103,40,16,Hip-hop
+153,Simple.,Attorney,62,24,16,Classical
+154,Level open bank.,Worker,73,27,24,Jazz
+155,Scene scene six.,As,21,8,25,Electronic
+156,Either rather serve relationship.,Responsibility,9,4,17,Electronic
+157,Mr some so.,Across,97,38,16,Jazz
+158,Drive else language.,Any,86,34,16,Jazz
+159,Fish expert speech.,Hope,57,22,16,Pop
+160,Physical great similar despite.,Team,85,33,20,Rock
+161,Son tree any.,Property,81,32,19,Rock
+162,Develop institution trouble.,Increase,74,28,16,Electronic
+163,None need.,Allow,39,16,16,Electronic
+164,Either most example.,When,24,10,16,Classical
+165,Million now but consider.,Song,25,10,10,Classical
+166,Wait.,Pull,37,14,16,Jazz
+167,Difference western prevent.,Pull,37,14,16,Jazz
+168,Six design animal.,Any,86,34,16,Jazz
+169,Act process social.,Item,80,31,12,Classical
+170,Event remember.,Item,80,31,15,Classical
+171,Physical prevent.,Everything,90,35,16,Hip-hop
+172,Describe policy leg.,Team,85,33,21,Rock
+173,Letter happen.,Even,23,9,16,Melody
+174,Prevent design discuss.,Knowledge,79,30,16,Pop
+175,Ago.,Write,98,38,16,Jazz
+176,Always send.,Write,98,38,22,Jazz
+177,Person property everyone.,Item,80,31,23,Classical
+178,Always perhaps reflect.,Increase,74,28,16,Electronic
+179,Include make himself.,As,21,8,22,Electronic
+180,Red true vote.,Even,23,9,23,Melody
+181,Address expert.,Item,80,31,16,Classical
+182,Anything loss.,Can,96,38,5,Jazz
+183,Well save worker.,Region,22,9,16,Melody
+184,Order little.,Stuff,88,35,18,Hip-hop
+185,Beautiful society ten.,Happy,6,2,16,Rock
+186,Everything large.,Sport,7,3,21,Hip-hop
+187,Increase list.,Level,71,27,16,Jazz
+188,Ahead argue.,Officer,28,11,15,Classical
+189,Already top.,Hope,57,22,16,Pop
+190,Sure themselves.,Yourself,83,32,8,Rock
+191,Run car.,Able,70,26,14,Electronic
+192,Body carry.,Knowledge,79,30,16,Pop
+193,Support system stage actually.,Property,81,32,8,Rock
+194,Responsibility see.,Probably,66,24,16,Classical
+195,Imagine education them.,Any,86,34,19,Jazz
+196,And.,Able,70,26,16,Electronic
+197,Event position modern.,Song,25,10,6,Classical
+198,Perhaps kind.,Information,10,4,16,Electronic
+199,Information return.,Media,2,1,16,Melody
+200,Worker short total.,Officer,28,11,11,Classical
+201,Modern follow ever.,Pay,19,6,9,Pop
+202,Affect.,Even,95,37,16,Jazz
+203,Value arrive.,Every,100,40,16,Hip-hop
+204,Much financial still.,Collection,47,18,20,Rock
+205,Before financial good.,When,24,10,16,Classical
+206,War expert.,Box,44,17,16,Melody
+207,Doctor story these.,International,99,39,9,Hip-hop
+208,Rule article hand nice.,Box,44,17,23,Melody
+209,All road most.,Wait,77,29,8,Jazz
+210,Some long.,Doctor,54,20,16,Hip-hop
+211,Minute physical.,Team,85,33,16,Rock
+212,Song raise.,Director,30,12,8,Classical
+213,Camera grow civil.,Even,23,9,15,Melody
+214,Age scene.,Happy,6,2,16,Rock
+215,Bill.,Gun,61,23,19,Hip-hop
+216,Policy full against.,Might,15,5,16,Rock
+217,Figure ball yeah.,Gun,61,23,8,Hip-hop
+218,Head decision long.,Probably,64,24,16,Classical
+219,Control state.,Level,71,27,15,Jazz
+220,Baby coach.,Wait,77,29,10,Jazz
+221,Policy.,Probably,66,24,23,Classical
+222,Watch project.,Cup,63,24,6,Classical
+223,Option natural.,Doctor,54,20,15,Hip-hop
+224,Everything guy general.,International,99,39,16,Hip-hop
+225,Republican simply.,Probably,64,24,16,Classical
+226,South.,Carry,4,1,16,Melody
+227,Material draw we.,Item,80,31,16,Classical
+228,President president loss investment.,Both,14,5,16,Rock
+229,Ability stop compare meet.,Wrong,8,4,16,Electronic
+230,Small increase force.,Ground,38,15,16,Pop
+231,Fact notice respond.,Able,70,26,16,Electronic
+232,Thought wear everybody.,Can,96,38,8,Jazz
+233,Remain spring standard.,Probably,66,24,16,Classical
+234,Plant program whatever.,Behind,91,36,15,Jazz
+235,Determine.,Behind,91,36,17,Jazz
+236,Consider many practice.,Across,97,38,16,Jazz
+237,Speech throw individual.,International,99,39,10,Hip-hop
+238,Staff family against.,Worker,73,27,11,Jazz
+239,Off let.,Collection,47,18,16,Rock
+240,His carry.,Increase,74,28,16,Electronic
+241,Career though.,Any,86,34,14,Jazz
+242,Happy around series whether.,Career,1,1,11,Melody
+243,Turn seat whose.,Collection,47,18,7,Rock
+244,Policy.,Box,44,17,16,Melody
+245,Technology course.,Region,22,9,12,Melody
+246,Budget name.,Star,35,13,16,Rock
+247,Box born after.,International,99,39,16,Hip-hop
+248,One step.,Century,11,4,16,Electronic
+249,Forward arrive.,Foreign,60,22,16,Pop
+250,Very here.,Professional,67,25,22,Hip-hop
+251,Despite drug statement capital.,Knowledge,79,30,11,Pop
+252,Low.,Region,22,9,16,Melody
+253,Already matter clearly.,Able,70,26,16,Electronic
+254,Bit bag away.,Interest,68,25,8,Hip-hop
+255,Movie either oil.,Box,44,17,25,Melody
+256,Popular foot new.,Even,23,9,13,Melody
+257,Before best book.,Item,80,31,16,Classical
+258,If design.,Fill,78,29,16,Jazz
+259,Right page.,Pay,19,6,24,Pop
+260,Kid government.,Any,86,34,20,Jazz
+261,Perform specific painting.,Doctor,54,20,16,Hip-hop
+262,Wear stock.,Even,23,9,16,Melody
+263,Language age Congress name.,Pull,37,14,6,Jazz
+264,Good seem top.,Item,80,31,9,Classical
+265,How likely from.,Represent,20,7,16,Pop
+266,Level compare boy.,Write,98,38,20,Jazz
+267,City show although medical.,Real,52,20,16,Hip-hop
+268,Century upon.,Arm,53,20,5,Hip-hop
+269,Born alone.,Under,42,16,23,Electronic
+270,Final Mrs.,Head,56,21,25,Electronic
+271,Organization range pick.,Carry,4,1,16,Melody
+272,Voice along.,Program,89,35,16,Hip-hop
+273,Wrong Democrat.,Knowledge,79,30,22,Pop
+274,Natural lose.,Gun,61,23,24,Hip-hop
+275,Reduce window should.,Gun,61,23,15,Hip-hop
+276,Her.,Dark,92,36,16,Jazz
+277,Window we.,Gun,61,23,10,Hip-hop
+278,Move away past.,Any,86,34,16,Jazz
+279,Toward build.,Then,36,14,12,Jazz
+280,Everybody safe.,Ground,38,15,16,Pop
+281,Lawyer return eight.,Wait,77,29,16,Jazz
+282,Model key early.,Interest,68,25,16,Hip-hop
+283,Feel source score.,Pressure,3,1,16,Melody
+284,Performance trial.,Budget,26,11,25,Classical
+285,Baby author fine these.,Box,44,17,9,Melody
+286,Entire leave.,Century,11,4,16,Electronic
+287,Level point recognize.,Ground,38,15,22,Pop
+288,Think.,Pressure,3,1,6,Melody
+289,Defense nation face six.,Responsibility,9,4,16,Electronic
+290,Reveal follow represent experience.,Gun,61,23,13,Hip-hop
+291,Front series.,Under,42,16,16,Electronic
+292,Side discuss center.,Must,5,1,16,Melody
+293,Once gas.,Allow,39,16,16,Electronic
+294,Finally mention.,Property,81,32,5,Rock
+295,Ready report maybe.,Attorney,62,24,25,Classical
+296,Hard study seat.,Gun,61,23,13,Hip-hop
+297,Tonight require agency.,Response,58,22,16,Pop
+298,Through detail.,Arm,55,21,8,Electronic
+299,Foot despite century.,Budget,26,11,22,Classical
+300,Various man condition.,Girl,49,19,25,Classical
+301,Concern marriage.,Gun,61,23,6,Hip-hop
+302,Ground you pass.,Box,44,17,16,Melody
+303,Keep play human.,Start,34,13,16,Rock
+304,Care mind save hit.,Career,1,1,16,Melody
+305,Field value player.,Sport,7,3,16,Hip-hop
+306,Toward.,Box,44,17,7,Melody
+307,Low later.,Even,95,37,21,Jazz
+308,Computer ok these.,Item,80,31,16,Classical
+309,Box job.,Name,46,18,25,Rock
+310,Middle right task.,Under,42,16,19,Electronic
+311,Somebody wind instead.,As,21,8,16,Electronic
+312,Partner others.,Couple,59,22,20,Pop
+313,Series help choose.,Director,30,12,5,Classical
+314,Cup worker.,Interest,68,25,7,Hip-hop
+315,Relationship maintain agent.,Arm,53,20,19,Hip-hop
+316,College he only.,Star,35,13,16,Rock
+317,Sense policy.,Any,86,34,16,Jazz
+318,Sense discover.,Property,81,32,8,Rock
+319,Blood true.,Everything,90,35,19,Hip-hop
+320,Way contain.,Those,13,5,11,Rock
+321,Form day.,As,21,8,16,Electronic
+322,Sell growth idea pass.,Doctor,54,20,16,Hip-hop
+323,Think.,List,102,40,11,Hip-hop
+324,Law law.,True,45,18,18,Rock
+325,Rate girl.,As,21,8,16,Electronic
+326,Candidate smile thing concern.,Century,11,4,16,Electronic
+327,Best ground hard.,Write,98,38,17,Jazz
+328,Everybody physical.,Happy,6,2,16,Rock
+329,Also Mrs the.,As,21,8,10,Electronic
+330,Money painting.,Under,42,16,16,Electronic
+331,Sometimes market child.,Sport,7,3,19,Hip-hop
+332,Trade at hope anything.,Might,15,5,12,Rock
+333,How.,Level,71,27,16,Jazz
+334,Too same.,Wait,77,29,9,Jazz
+335,Go my local.,As,21,8,25,Electronic
+336,So.,Wait,77,29,21,Jazz
+337,Real that.,Then,36,14,6,Jazz
+338,Local.,Team,85,33,16,Rock
+339,Under.,Team,85,33,6,Rock
+340,Fund dog least.,Box,44,17,16,Melody
+341,From attack.,Name,46,18,19,Rock
+342,Too month.,Box,44,17,10,Melody
+343,Four claim hour.,International,99,39,16,Hip-hop
+344,Fight off resource.,International,99,39,10,Hip-hop
+345,Beautiful trip.,Especially,18,6,16,Pop
+346,Adult painting sport.,Clear,82,32,16,Rock
+347,Shoulder seem them.,Represent,20,7,16,Pop
+348,Actually democratic agree idea.,Increase,74,28,22,Electronic
+349,Street decade strategy human.,Professional,67,25,16,Hip-hop
+350,Gun.,Both,14,5,24,Rock
+351,Trade work.,Story,76,29,17,Jazz
+352,Congress.,Item,80,31,16,Classical
+353,Culture item.,Across,97,38,16,Jazz
+354,Hear particularly third.,Box,44,17,24,Melody
+355,Child deep.,Role,94,37,16,Jazz
+356,Talk ever.,Increase,74,28,16,Electronic
+357,Surface either leg.,Writer,93,36,16,Jazz
+358,Ok him.,Save,29,12,24,Classical
+359,Real then he.,Yourself,83,32,21,Rock
+360,Guess both among.,Century,11,4,16,Electronic
+361,Stock pay.,Arm,53,20,20,Hip-hop
+362,Official seem baby.,Region,22,9,16,Melody
+363,Cover decade.,Head,56,21,12,Electronic
+364,Individual oil.,Story,76,29,16,Jazz
+365,Clearly determine.,Under,42,16,23,Electronic
+366,Learn story.,Knowledge,79,30,9,Pop
+367,Face heavy.,Gun,61,23,16,Hip-hop
+368,Service suggest.,Probably,64,24,16,Classical
+369,Film me summer.,Collection,47,18,16,Rock
+370,Family cell about.,Increase,74,28,16,Electronic
+371,Figure another establish.,Team,85,33,16,Rock
+372,Wish.,Story,76,29,22,Jazz
+373,Evidence then can.,Story,76,29,21,Jazz
+374,Billion.,Newspaper,17,6,25,Pop
+375,Several affect.,Happy,6,2,16,Rock
+376,Evening leader.,Wrong,8,4,16,Electronic
+377,City under.,Listen,32,13,18,Rock
+378,Five Mr.,Any,86,34,16,Jazz
+379,Store year.,Represent,20,7,16,Pop
+380,Skill party.,Role,94,37,16,Jazz
+381,Clearly foreign.,Real,52,20,7,Hip-hop
+382,Kitchen yourself.,Song,25,10,20,Classical
+383,Sound week.,Water,84,32,6,Rock
+384,Participant performance city.,Ground,38,15,17,Pop
+385,Computer middle him pass.,Director,30,12,5,Classical
+386,Include friend.,Knowledge,79,30,20,Pop
+387,Eye fly.,Knowledge,79,30,16,Pop
+388,Where laugh.,Increase,74,28,8,Electronic
+389,Notice.,Hope,57,22,10,Pop
+390,Article great.,Program,89,35,9,Hip-hop
+391,Event.,When,24,10,16,Classical
+392,Policy card.,Avoid,16,6,16,Pop
+393,Evidence responsibility.,Might,15,5,16,Rock
+394,Condition market ago.,Then,36,14,23,Jazz
+395,Yes spring.,Program,89,35,9,Hip-hop
+396,Away world.,Black,65,24,16,Classical
+397,Central nearly series office.,Even,23,9,16,Melody
+398,Dog phone.,Behind,91,36,16,Jazz
+399,Wife traditional popular.,Then,36,14,23,Jazz
+400,Common at recently.,Write,98,38,16,Jazz
+401,Available one piece.,Arm,55,21,16,Electronic
+402,Although friend.,Box,44,17,9,Melody
+403,No character.,Those,13,5,13,Rock
+404,Through design prepare.,Knowledge,79,30,16,Pop
+405,Practice human which.,Newspaper,17,6,16,Pop
+406,Century traditional free.,Real,52,20,16,Hip-hop
+407,Care keep.,Notice,72,27,16,Jazz
+408,Daughter indeed recently.,Those,13,5,16,Rock
+409,Serious single.,Able,70,26,14,Electronic
+410,Especially science.,Room,40,16,8,Electronic
+411,Them safe walk.,Then,36,14,11,Jazz
+412,Work while myself nice.,Probably,66,24,20,Classical
+413,Know any fight.,Save,29,12,10,Classical
+414,Public dog above.,Box,44,17,16,Melody
+415,Worry cold bank.,Director,30,12,9,Classical
+416,Interesting necessary.,Increase,74,28,5,Electronic
+417,Forget bring present.,Region,22,9,16,Melody
+418,Character worry play.,As,21,8,16,Electronic
+419,Ready kind before.,Fill,78,29,16,Jazz
+420,Quickly dream article.,As,21,8,24,Electronic
+421,Dog detail.,Executive,87,35,10,Hip-hop
+422,Top party its.,Team,85,33,16,Rock
+423,Debate car assume.,Ground,38,15,16,Pop
+424,American yeah form.,Gun,61,23,21,Hip-hop
+425,Prove forward.,Increase,74,28,8,Electronic
+426,Another.,Any,86,34,16,Jazz
+427,No determine.,Team,85,33,9,Rock
+428,Cost.,Able,70,26,15,Electronic
+429,Food.,Pull,37,14,16,Jazz
+430,Hard everything rest.,Information,10,4,20,Electronic
+431,Word another.,Represent,20,7,16,Pop
+432,Imagine practice.,Responsibility,9,4,13,Electronic
+433,Data age behind.,Us,51,19,16,Classical
+434,Technology recent apply.,Doctor,54,20,16,Hip-hop
+435,Leave high.,Real,52,20,11,Hip-hop
+436,Head color.,Team,85,33,18,Rock
+437,Western gas into.,Stuff,88,35,16,Hip-hop
+438,Woman song.,Story,76,29,11,Jazz
+439,Open character which.,Newspaper,17,6,16,Pop
+440,Standard trouble record.,Stuff,88,35,16,Hip-hop
+441,Energy air baby.,Represent,20,7,16,Pop
+442,Some.,Star,35,13,13,Rock
+443,Take hope opportunity message.,Star,35,13,24,Rock
+444,Part forward.,Sport,7,3,16,Hip-hop
+445,Way.,Wrong,8,4,16,Electronic
+446,Owner paper.,Gun,61,23,21,Hip-hop
+447,Tell after.,Even,95,37,16,Jazz
+448,Any product.,Couple,59,22,19,Pop
+449,Treat sometimes.,Item,80,31,16,Classical
+450,Hope language team.,Name,46,18,22,Rock
+451,Possible create.,Represent,20,7,16,Pop
+452,Father management child.,Those,13,5,24,Rock
+453,Common understand.,Clear,82,32,18,Rock
+454,Avoid wide on.,Any,86,34,8,Jazz
+455,Machine result building.,Able,70,26,16,Electronic
+456,Major.,As,21,8,16,Electronic
+457,Trial leader.,Increase,74,28,16,Electronic
+458,Statement development off smile.,Place,75,29,12,Jazz
+459,Employee whom skill job.,Under,42,16,5,Electronic
+460,Detail action.,Happy,6,2,7,Rock
+461,Thank speech.,Item,80,31,22,Classical
+462,Partner international.,Pressure,3,1,15,Melody
+463,Camera find use.,Able,70,26,16,Electronic
+464,Resource near.,Room,40,16,16,Electronic
+465,Although look mind.,Couple,59,22,16,Pop
+466,Kitchen finally.,Wife,41,16,24,Electronic
+467,Toward player throw.,Worker,73,27,16,Jazz
+468,Religious herself sign.,Might,15,5,16,Rock
+469,From boy.,Interest,68,25,19,Hip-hop
+470,Mind share.,As,21,8,16,Electronic
+471,These law.,Even,23,9,14,Melody
+472,Write system.,Ground,38,15,14,Pop
+473,Skin local main.,As,21,8,16,Electronic
+474,Bit maintain.,Role,94,37,16,Jazz
+475,Point respond rock.,Item,80,31,10,Classical
+476,Significant ten American.,Item,80,31,16,Classical
+477,Activity idea.,Box,44,17,16,Melody
+478,Task character live.,Write,98,38,18,Jazz
+479,Billion last station.,Story,76,29,25,Jazz
+480,Some tend rock.,Interest,68,25,20,Hip-hop
+481,Value likely.,Everything,90,35,16,Hip-hop
+482,Father situation little.,Item,80,31,9,Classical
+483,Effort of.,Name,46,18,16,Rock
+484,Son require over.,Sport,7,3,8,Hip-hop
+485,Big.,Knowledge,79,30,7,Pop
+486,Trial or discover.,Central,101,40,10,Hip-hop
+487,Beautiful.,Arm,55,21,16,Electronic
+488,Everybody born school.,Budget,26,11,16,Classical
+489,Majority whole police reach.,Team,85,33,18,Rock
+490,I citizen early.,Pull,37,14,22,Jazz
+491,Memory phone low.,Even,23,9,11,Melody
+492,Church speech.,Knowledge,79,30,16,Pop
+493,With.,Message,43,16,9,Electronic
+494,Take painting.,Director,30,12,16,Classical
+495,Story.,True,45,18,16,Rock
+496,What music.,Box,44,17,16,Melody
+497,Full me after.,Able,70,26,16,Electronic
+498,Very start imagine.,Water,84,32,16,Rock
+499,Wear someone lay.,Even,23,9,16,Melody
+500,Project common color.,Allow,39,16,7,Electronic
+501,Message act.,Even,95,37,16,Jazz
+502,Movement coach.,Property,81,32,10,Rock
+503,Plant lot those.,Wait,77,29,16,Jazz
+504,Class program huge include.,Must,5,1,17,Melody
+505,Statement record design address.,Arm,55,21,14,Electronic
+506,Expert employee.,Newspaper,17,6,16,Pop
+507,Instead team.,Box,44,17,16,Melody
+508,Around letter.,Notice,72,27,18,Jazz
+509,Question occur.,Responsibility,9,4,5,Electronic
+510,Staff never.,Central,101,40,16,Hip-hop
+511,Whom near action.,Information,103,40,23,Hip-hop
+512,Wrong eat will effect.,Ground,38,15,11,Pop
+513,Instead police culture.,Information,103,40,16,Hip-hop
+514,Difference produce.,Even,95,37,16,Jazz
+515,It act.,Film,31,13,16,Rock
+516,Yeah maybe.,Responsibility,9,4,16,Electronic
+517,Model partner if.,Knowledge,79,30,16,Pop
+518,Clearly agent.,Knowledge,79,30,9,Pop
+519,List fly.,Knowledge,79,30,16,Pop
+520,Indeed sometimes commercial check.,Collection,47,18,16,Rock
+521,Democrat.,Interest,68,25,16,Hip-hop
+522,Majority staff.,Increase,74,28,18,Electronic
+523,Administration significant.,International,99,39,16,Hip-hop
+524,Car many chance agree.,Song,25,10,15,Classical
+525,Million other operation.,Box,44,17,16,Melody
+526,Usually pattern detail.,Increase,74,28,22,Electronic
+527,Fact prevent quality.,Media,2,1,16,Melody
+528,Team long.,Foreign,60,22,21,Pop
+529,Put matter course trouble.,Represent,20,7,14,Pop
+530,Land during find.,Level,71,27,16,Jazz
+531,Who those hope.,Item,80,31,12,Classical
+532,According institution.,Write,98,38,8,Jazz
+533,Girl different chair.,Ground,38,15,11,Pop
+534,Number already.,Both,14,5,16,Rock
+535,Available indeed.,Full,12,4,20,Electronic
+536,Human land particularly than.,Clear,82,32,5,Rock
+537,Address prevent husband.,Can,96,38,16,Jazz
+538,Save population.,Full,12,4,11,Electronic
+539,Option give memory soldier.,As,21,8,16,Electronic
+540,Management base.,Able,70,26,19,Electronic
+541,Machine civil leader.,Gun,61,23,15,Hip-hop
+542,Structure play brother.,Gun,61,23,18,Hip-hop
+543,Specific see.,Couple,59,22,16,Pop
+544,Behind stop.,Start,34,13,14,Rock
+545,Country camera wide.,Able,70,26,16,Electronic
+546,Different station.,Knowledge,79,30,16,Pop
+547,Purpose rate.,Room,40,16,16,Electronic
+548,Order store.,Save,29,12,16,Classical
+549,Television animal.,Represent,20,7,16,Pop
+550,Purpose subject.,Gun,61,23,16,Hip-hop
+551,Drug.,Represent,20,7,16,Pop
+552,Forward card.,Officer,28,11,16,Classical
+553,Across its.,Item,80,31,16,Classical
+554,College against.,Central,101,40,5,Hip-hop
+555,Product.,Item,80,31,11,Classical
+556,Itself under society.,Level,71,27,25,Jazz
+557,Forget read.,Role,94,37,12,Jazz
+558,Figure base quite style.,Across,97,38,24,Jazz
+559,Professor every environment.,Happy,6,2,16,Rock
+560,Both charge bag kid.,Message,43,16,16,Electronic
+561,Team vote high.,Item,80,31,13,Classical
+562,Prove finally maintain.,Central,101,40,16,Hip-hop
+563,Protect crime.,International,99,39,16,Hip-hop
+564,Professional small fund.,True,45,18,16,Rock
+565,Blood officer interest.,Able,70,26,16,Electronic
+566,Article.,Central,101,40,16,Hip-hop
+567,Rather floor.,International,99,39,16,Hip-hop
+568,Popular reason.,Arm,55,21,16,Electronic
+569,Police break any.,Ground,38,15,16,Pop
+570,Second someone.,Attorney,62,24,17,Classical
+571,Green young east.,Pull,37,14,16,Jazz
+572,Garden should.,Director,30,12,16,Classical
+573,Actually.,Pull,37,14,16,Jazz
+574,Gun alone.,Century,11,4,16,Electronic
+575,Foreign start.,Song,25,10,16,Classical
+576,Bad less small.,Collection,47,18,13,Rock
+577,Process former.,Officer,28,11,16,Classical
+578,Past officer.,Can,96,38,16,Jazz
+579,Down.,Role,94,37,16,Jazz
+580,Not radio.,Region,22,9,16,Melody
+581,If onto.,Able,70,26,8,Electronic
+582,Half character.,Information,10,4,10,Electronic
+583,Some book system product.,As,21,8,8,Electronic
+584,Reality understand plant likely.,Might,15,5,16,Rock
+585,Subject receive.,Director,30,12,10,Classical
+586,Increase war.,Property,81,32,17,Rock
+587,Explain international bar.,Increase,74,28,20,Electronic
+588,Company.,Pull,37,14,16,Jazz
+590,South middle.,Believe,69,25,16,Hip-hop
+591,Carry.,Item,80,31,16,Classical
+592,Able force apply.,Happy,6,2,15,Rock
+593,Machine want this.,Increase,74,28,16,Electronic
+594,Raise appear.,Song,25,10,23,Classical
+595,Argue whatever.,Allow,39,16,16,Electronic
+596,Mr government class.,Level,71,27,16,Jazz
+597,Building discuss nor.,Sport,7,3,16,Hip-hop
+598,However subject late.,International,99,39,10,Hip-hop
+599,West week man treatment.,Write,98,38,16,Jazz
+600,Market east.,Officer,28,11,16,Classical
+601,Wait risk either.,Represent,20,7,16,Pop
+602,Well civil close.,Hope,57,22,18,Pop
+603,Each action shake.,Us,51,19,20,Classical
+604,Without pull wife.,Water,84,32,16,Rock
+605,Future cost serve range.,Increase,74,28,14,Electronic
+606,That production.,Friend,27,11,16,Classical
+607,Read simply usually.,Happy,6,2,16,Rock
+608,Place over.,Increase,74,28,22,Electronic
+609,Approach detail.,Ground,38,15,21,Pop
+610,Budget popular.,Gun,61,23,12,Hip-hop
+611,Often voice.,Gun,61,23,16,Hip-hop
+612,Until hospital.,Information,103,40,16,Hip-hop
+613,Song.,When,24,10,13,Classical
+614,Final decision history.,Response,58,22,24,Pop
+615,Against toward thing.,Region,22,9,15,Melody
+616,His move general.,Team,85,33,16,Rock
+617,Poor big describe.,Save,29,12,11,Classical
+618,Including high fire.,Worker,73,27,16,Jazz
+619,Area pretty.,Black,65,24,16,Classical
+620,Goal result.,Arm,53,20,24,Hip-hop
+621,Story.,Gun,61,23,16,Hip-hop
+622,Be notice collection knowledge.,Role,94,37,25,Jazz
+623,Again other enough record.,Might,15,5,16,Rock
+624,Evidence product subject.,Notice,72,27,24,Jazz
+625,Number movement save.,Hope,57,22,16,Pop
+626,Debate where security.,List,102,40,16,Hip-hop
+627,Bit truth charge.,Executive,87,35,16,Hip-hop
+628,Level majority.,Sport,7,3,16,Hip-hop
+629,Difficult enough.,Officer,28,11,21,Classical
+630,Allow look maintain.,Sport,7,3,16,Hip-hop
+631,Idea less win.,Able,70,26,19,Electronic
+632,Mrs.,Officer,28,11,24,Classical
+633,Figure speech response.,Knowledge,79,30,8,Pop
+634,Sing market.,True,45,18,16,Rock
+635,These process.,Head,56,21,24,Electronic
+636,Art sell.,Any,86,34,16,Jazz
+637,Brother center.,Can,96,38,20,Jazz
+638,Body stock wear.,Item,80,31,16,Classical
+639,Student.,Increase,74,28,16,Electronic
+640,Number quickly project.,When,24,10,25,Classical
+641,Success.,Start,34,13,18,Rock
+642,History risk certainly into.,List,102,40,16,Hip-hop
+643,Cold school whom best.,Start,34,13,5,Rock
+644,Law low.,Wait,77,29,16,Jazz
+645,Trial their read.,Knowledge,79,30,16,Pop
+646,Tree.,Room,40,16,21,Electronic
+647,Seat everybody growth.,Wrong,8,4,16,Electronic
+648,Us somebody sport.,Gun,61,23,16,Hip-hop
+649,As before clearly.,Doctor,54,20,16,Hip-hop
+650,Land spring energy.,Able,70,26,23,Electronic
+651,Child seek represent.,Full,12,4,18,Electronic
+652,Compare machine just.,Wait,77,29,20,Jazz
+653,Conference large imagine.,Budget,26,11,25,Classical
+654,Develop trial.,Star,35,13,16,Rock
+655,Woman group.,Professional,67,25,16,Hip-hop
+656,Teach system common.,Happy,6,2,19,Rock
+657,Positive.,Allow,39,16,16,Electronic
+658,Law rich.,Wrong,8,4,9,Electronic
+659,Feeling who.,International,99,39,23,Hip-hop
+660,Security support join.,Under,42,16,15,Electronic
+661,Agency stuff focus able.,Happy,6,2,14,Rock
+662,News understand who.,Region,22,9,24,Melody
+663,Quality.,Both,14,5,16,Rock
+664,On point.,Ground,38,15,25,Pop
+665,Sort million rock.,Gun,61,23,16,Hip-hop
+666,Music yeah newspaper.,Represent,20,7,8,Pop
+667,Strategy as.,Film,31,13,16,Rock
+668,Spend crime.,Place,75,29,16,Jazz
+669,Reflect simple.,Increase,74,28,13,Electronic
+670,Generation join yet fall.,Manager,48,19,9,Classical
+671,Stand message.,Item,80,31,16,Classical
+672,Movement position summer.,Knowledge,79,30,23,Pop
+673,Raise me.,Professional,67,25,16,Hip-hop
+674,Ready left.,Represent,20,7,9,Pop
+675,Analysis maintain if.,Executive,87,35,11,Hip-hop
+676,Interesting.,Officer,28,11,14,Classical
+677,Why.,Represent,20,7,12,Pop
+678,Of our big mean.,Then,36,14,17,Jazz
+679,Crime join up.,Head,56,21,19,Electronic
+680,Something or respond.,Listen,32,13,16,Rock
+681,Story hotel in.,Fall,33,13,23,Rock
+682,Why laugh.,Across,97,38,16,Jazz
+683,Situation then change.,Box,44,17,13,Melody
+684,Cultural drop.,Property,81,32,16,Rock
+685,Business later major.,Ground,38,15,22,Pop
+686,Idea offer.,Item,80,31,16,Classical
+687,Draw.,Yourself,83,32,16,Rock
+688,Well research investment.,Box,44,17,5,Melody
+689,Politics strategy begin.,Worker,73,27,16,Jazz
+690,First stage.,Ground,38,15,16,Pop
+691,Customer international half.,Those,13,5,23,Rock
+692,Argue.,Girl,49,19,16,Classical
+693,Design other.,Film,31,13,16,Rock
+694,Experience always agency.,Even,23,9,5,Melody
+695,Parent candidate his.,Team,85,33,16,Rock
+696,Identify argue receive.,Fall,33,13,16,Rock
+697,Rock.,Increase,74,28,16,Electronic
+698,Mind good.,Region,22,9,24,Melody
+699,Him.,Even,95,37,16,Jazz
+700,Arrive might mother.,Might,15,5,16,Rock
+701,Yet more.,Even,95,37,16,Jazz
+702,Conference.,Happy,6,2,16,Rock
+703,Speech teacher.,Team,85,33,16,Rock
+704,Thank throughout.,Item,80,31,16,Classical
+705,Record direction despite.,Girl,49,19,7,Classical
+706,From interest.,Represent,20,7,16,Pop
+707,During.,Region,22,9,16,Melody
+708,Over account.,Role,94,37,16,Jazz
+709,Maintain either.,Every,100,40,16,Hip-hop
+710,Yourself respond she.,Pull,37,14,16,Jazz
+711,Oil whether measure strategy.,Both,14,5,18,Rock
+712,Media perform discussion.,Avoid,16,6,8,Pop
+713,Myself they.,List,102,40,16,Hip-hop
+714,Represent figure allow.,Writer,93,36,16,Jazz
+715,Individual beat bag.,Wrong,8,4,16,Electronic
+716,Today responsibility any.,Arm,55,21,19,Electronic
+717,Risk seem.,Box,44,17,16,Melody
+718,Push.,Item,80,31,16,Classical
+719,Some attack.,Item,80,31,16,Classical
+720,Street program whole.,Clear,82,32,16,Rock
+721,Assume.,Able,70,26,16,Electronic
+722,Rate defense feel.,Gun,61,23,16,Hip-hop
+723,Thousand return American.,Item,80,31,16,Classical
+724,Form wrong dinner.,Increase,74,28,15,Electronic
+725,Without owner him.,Item,80,31,16,Classical
+726,Something decision none.,As,21,8,24,Electronic
+727,Civil reveal someone life.,Able,70,26,15,Electronic
+728,If chair.,Gun,61,23,16,Hip-hop
+729,Water discuss.,Water,84,32,16,Rock
+730,Do gas.,Dark,92,36,8,Jazz
+731,Though material.,As,21,8,16,Electronic
+732,Economic increase.,Believe,69,25,16,Hip-hop
+733,Certainly.,Responsibility,9,4,16,Electronic
+734,Clearly southern media.,As,21,8,10,Electronic
+735,Particularly door.,Wait,77,29,16,Jazz
+736,Site increase.,When,24,10,16,Classical
+737,Start floor.,Those,13,5,14,Rock
+738,Remain recently.,Any,86,34,19,Jazz
+739,Decade fact pass.,Sport,7,3,16,Hip-hop
+740,May send.,Us,51,19,25,Classical
+741,Too call lead.,Stuff,88,35,9,Hip-hop
+742,Decade product attack.,Song,25,10,17,Classical
+743,Myself.,Item,80,31,13,Classical
+744,Child plant above.,Gun,61,23,16,Hip-hop
+745,Bit development.,Role,94,37,16,Jazz
+746,Cold participant.,Item,80,31,16,Classical
+747,Nation action why.,As,21,8,16,Electronic
+748,Other police system.,Sport,7,3,16,Hip-hop
+749,Development off.,Cup,63,24,21,Classical
+750,Situation.,Friend,27,11,16,Classical
+751,House century of.,Save,29,12,16,Classical
+752,Image practice.,Then,36,14,20,Jazz
+753,Friend allow.,Across,97,38,8,Jazz
+754,Drop direction physical citizen.,Response,58,22,16,Pop
+755,Billion Democrat.,Information,10,4,16,Electronic
+756,Smile back go close.,Officer,28,11,16,Classical
+757,Health kind.,Program,89,35,16,Hip-hop
+758,Wrong simple allow.,Arm,53,20,22,Hip-hop
+759,Statement picture top.,Behind,91,36,17,Jazz
+760,I green.,Happy,6,2,19,Rock
+761,Value skill gun.,Item,80,31,16,Classical
+762,Economic.,Save,29,12,16,Classical
+763,Traditional officer fly.,Cup,63,24,16,Classical
+764,Score data protect.,Central,101,40,16,Hip-hop
+765,Life reveal.,Name,46,18,16,Rock
+766,East structure.,Head,56,21,16,Electronic
+767,Wait yourself plant.,Fill,78,29,16,Jazz
+768,Continue citizen yard.,Role,94,37,16,Jazz
+769,Group black.,Gun,61,23,7,Hip-hop
+770,Can cell.,Couple,59,22,22,Pop
+771,Company society.,Message,43,16,11,Electronic
+772,Issue environmental.,Real,52,20,24,Hip-hop
+773,Visit health.,Water,84,32,16,Rock
+774,Like option author.,Arm,55,21,22,Electronic
+775,Huge.,Director,30,12,16,Classical
+776,Citizen personal.,Stuff,88,35,16,Hip-hop
+777,Huge visit range sure.,Team,85,33,16,Rock
+778,Actually.,Save,29,12,10,Classical
+779,Statement land.,Box,44,17,18,Melody
+780,Price environment share.,Represent,20,7,22,Pop
+781,Not find.,Collection,47,18,13,Rock
+782,Wife turn threat.,Box,44,17,16,Melody
+783,Yeah hard product.,Gun,61,23,16,Hip-hop
+784,Them sure green.,As,21,8,14,Electronic
+785,Challenge would.,Avoid,16,6,16,Pop
+786,Economy source.,Head,56,21,16,Electronic
+787,Particular know.,Team,85,33,23,Rock
+788,He head health.,Save,29,12,16,Classical
+789,Firm like door.,Ground,38,15,15,Pop
+790,Reveal reason represent.,When,24,10,16,Classical
+791,Positive sense.,Head,56,21,9,Electronic
+792,Media child adult.,Increase,74,28,16,Electronic
+793,Continue knowledge benefit.,Save,29,12,15,Classical
+794,Already cultural.,Team,85,33,22,Rock
+795,Sit magazine so.,Able,70,26,16,Electronic
+796,Upon choose.,Central,101,40,16,Hip-hop
+797,Evening leg.,Both,14,5,16,Rock
+798,Skin everyone determine.,Pay,19,6,16,Pop
+799,Modern push.,Black,65,24,15,Classical
+800,Head indeed.,Represent,20,7,25,Pop
