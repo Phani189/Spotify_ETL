@@ -1,0 +1,282 @@
+[
+  {
+    "artist_id": 1,
+    "name": "Terry Hunter",
+    "country": "Morocco",
+    "popularity": 62,
+    "genre": "Melody"
+  },
+  {
+    "artist_id": 2,
+    "name": "Stephanie Strong",
+    "country": "Martinique",
+    "popularity": 50,
+    "genre": "Rock"
+  },
+  {
+    "artist_id": 3,
+    "name": "Gina Ortiz",
+    "country": "Uganda",
+    "popularity": null,
+    "genre": "Hip-Hop"
+  },
+  {
+    "artist_id": 4,
+    "name": "Jill Ramos",
+    "country": "Lao People's Democratic Republic",
+    "popularity": null,
+    "genre": "Electronic"
+  },
+  {
+    "artist_id": 5,
+    "name": "Ryan Guzman",
+    "country": "Kyrgyz Republic",
+    "popularity": null,
+    "genre": "Rock"
+  },
+  {
+    "artist_id": 6,
+    "name": "Kayla Stewart",
+    "country": "Malaysia",
+    "popularity": 80,
+    "genre": "Pop"
+  },
+  {
+    "artist_id": 7,
+    "name": "Brianna Vasquez",
+    "country": "Guadeloupe",
+    "popularity": null,
+    "genre": "Pop"
+  },
+  {
+    "artist_id": 8,
+    "name": "Donald Logan",
+    "country": "Guinea",
+    "popularity": null,
+    "genre": "Electronic"
+  },
+  {
+    "artist_id": 9,
+    "name": "Brian Parrish",
+    "country": "Nigeria",
+    "popularity": 87,
+    "genre": "Melody"
+  },
+  {
+    "artist_id": 10,
+    "name": "Diane Medina",
+    "country": "Svalbard & Jan Mayen Islands",
+    "popularity": null,
+    "genre": "Classical"
+  },
+  {
+    "artist_id": 11,
+    "name": "Sean Jones",
+    "country": "Mauritius",
+    "popularity": null,
+    "genre": "Classical"
+  },
+  {
+    "artist_id": 12,
+    "name": "Henry Wilson",
+    "country": "Paraguay",
+    "popularity": null,
+    "genre": "Classical"
+  },
+  {
+    "artist_id": 13,
+    "name": "Alexandra Moore",
+    "country": "Cape Verde",
+    "popularity": null,
+    "genre": "Rock"
+  },
+  {
+    "artist_id": 14,
+    "name": "Jonathan Schmidt",
+    "country": "Luxembourg",
+    "popularity": 90,
+    "genre": "Jazz"
+  },
+  {
+    "artist_id": 15,
+    "name": "John Park",
+    "country": "Reunion",
+    "popularity": null,
+    "genre": "Pop"
+  },
+  {
+    "artist_id": 16,
+    "name": "William Adams",
+    "country": "Ireland",
+    "popularity": null,
+    "genre": "Electronic"
+  },
+  {
+    "artist_id": 17,
+    "name": "Sean Gray",
+    "country": "Fiji",
+    "popularity": 52,
+    "genre": "Melody"
+  },
+  {
+    "artist_id": 18,
+    "name": "Edward Pennington",
+    "country": "Bahamas",
+    "popularity": null,
+    "genre": "Rock"
+  },
+  {
+    "artist_id": 19,
+    "name": "Michele Chambers",
+    "country": "Bulgaria",
+    "popularity": null,
+    "genre": "Classical"
+  },
+  {
+    "artist_id": 20,
+    "name": "Katherine Smith",
+    "country": "Costa Rica",
+    "popularity": 65,
+    "genre": "Hip-Hop"
+  },
+  {
+    "artist_id": 21,
+    "name": "Jared Stevens",
+    "country": "Guatemala",
+    "popularity": null,
+    "genre": "Electronic"
+  },
+  {
+    "artist_id": 22,
+    "name": "Cynthia Diaz",
+    "country": "Western Sahara",
+    "popularity": null,
+    "genre": "Pop"
+  },
+  {
+    "artist_id": 23,
+    "name": "Tommy Sullivan",
+    "country": "Singapore",
+    "popularity": null,
+    "genre": "Hip-Hop"
+  },
+  {
+    "artist_id": 24,
+    "name": "Charles Lopez",
+    "country": "Singapore",
+    "popularity": null,
+    "genre": "Classical"
+  },
+  {
+    "artist_id": 25,
+    "name": "Shannon Ramos",
+    "country": "Congo",
+    "popularity": null,
+    "genre": "Hip-Hop"
+  },
+  {
+    "artist_id": 26,
+    "name": "Sharon Black",
+    "country": "Ghana",
+    "popularity": null,
+    "genre": "Electronic"
+  },
+  {
+    "artist_id": 27,
+    "name": "Tammy Johnson",
+    "country": "Kenya",
+    "popularity": null,
+    "genre": "Jazz"
+  },
+  {
+    "artist_id": 28,
+    "name": "Daniel Grant",
+    "country": "Lao People's Democratic Republic",
+    "popularity": 81,
+    "genre": "Electronic"
+  },
+  {
+    "artist_id": 29,
+    "name": "Brittany Robertson",
+    "country": "Guadeloupe",
+    "popularity": 92,
+    "genre": "Jazz"
+  },
+  {
+    "artist_id": 30,
+    "name": "Nathan Brown",
+    "country": "Kyrgyz Republic",
+    "popularity": 60,
+    "genre": "Pop"
+  },
+  {
+    "artist_id": 31,
+    "name": "Eric Dougherty II",
+    "country": "Egypt",
+    "popularity": 73,
+    "genre": "Classical"
+  },
+  {
+    "artist_id": 32,
+    "name": "Tiffany Wood",
+    "country": "Chile",
+    "popularity": 77,
+    "genre": "Rock"
+  },
+  {
+    "artist_id": 33,
+    "name": "Erika Jones",
+    "country": "Suriname",
+    "popularity": null,
+    "genre": "Rock"
+  },
+  {
+    "artist_id": 34,
+    "name": "Michael Delacruz",
+    "country": "South Africa",
+    "popularity": 74,
+    "genre": "Jazz"
+  },
+  {
+    "artist_id": 35,
+    "name": "Kevin Jimenez",
+    "country": "Finland",
+    "popularity": null,
+    "genre": "Hip-Hop"
+  },
+  {
+    "artist_id": 36,
+    "name": "Theresa Kim",
+    "country": "Barbados",
+    "popularity": null,
+    "genre": "Jazz"
+  },
+  {
+    "artist_id": 37,
+    "name": "Melissa Stephenson",
+    "country": "Jamaica",
+    "popularity": 89,
+    "genre": "Jazz"
+  },
+  {
+    "artist_id": 38,
+    "name": "Brian Harrison",
+    "country": "Saint Kitts and Nevis",
+    "popularity": 75,
+    "genre": "Jazz"
+  },
+  {
+    "artist_id": 39,
+    "name": "Debra Martinez",
+    "country": "Saint Pierre and Miquelon",
+    "popularity": null,
+    "genre": "Hip-Hop"
+  },
+  {
+    "artist_id": 40,
+    "name": "William Macias",
+    "country": "Slovenia",
+    "popularity": 65,
+    "genre": "Hip-Hop"
+  }
+]

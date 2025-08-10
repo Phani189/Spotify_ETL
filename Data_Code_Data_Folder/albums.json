@@ -1,0 +1,620 @@
+[
+  {
+    "album_id": 1,
+    "album_name": "Career",
+    "release_date": "2022-01-05",
+    "artist_id": 1
+  },
+  {
+    "album_id": 2,
+    "album_name": "Media",
+    "release_date": "2024-08-08",
+    "artist_id": 1
+  },
+  {
+    "album_id": 3,
+    "album_name": "Pressure",
+    "release_date": "2022-07-16",
+    "artist_id": 1
+  },
+  {
+    "album_id": 4,
+    "album_name": "Carry",
+    "release_date": "2022-03-17",
+    "artist_id": 1
+  },
+  {
+    "album_id": 5,
+    "album_name": "Must",
+    "release_date": "2023-12-23",
+    "artist_id": 1
+  },
+  {
+    "album_id": 6,
+    "album_name": "Happy",
+    "release_date": "2020-10-28",
+    "artist_id": 2
+  },
+  {
+    "album_id": 7,
+    "album_name": "Sport",
+    "release_date": "2023-08-31",
+    "artist_id": 3
+  },
+  {
+    "album_id": 8,
+    "album_name": "Wrong",
+    "release_date": "2024-01-06",
+    "artist_id": 4
+  },
+  {
+    "album_id": 9,
+    "album_name": "Responsibility",
+    "release_date": "2025-04-17",
+    "artist_id": 4
+  },
+  {
+    "album_id": 10,
+    "album_name": "Information",
+    "release_date": "2023-11-13",
+    "artist_id": 4
+  },
+  {
+    "album_id": 11,
+    "album_name": "Century",
+    "release_date": "2020-12-30",
+    "artist_id": 4
+  },
+  {
+    "album_id": 12,
+    "album_name": "Full",
+    "release_date": "2023-05-23",
+    "artist_id": 4
+  },
+  {
+    "album_id": 13,
+    "album_name": "Those",
+    "release_date": "2021-03-12",
+    "artist_id": 5
+  },
+  {
+    "album_id": 14,
+    "album_name": "Both",
+    "release_date": "2025-04-01",
+    "artist_id": 5
+  },
+  {
+    "album_id": 15,
+    "album_name": "Might",
+    "release_date": "2025-01-08",
+    "artist_id": 5
+  },
+  {
+    "album_id": 16,
+    "album_name": "Avoid",
+    "release_date": "2023-10-01",
+    "artist_id": 6
+  },
+  {
+    "album_id": 17,
+    "album_name": "Newspaper",
+    "release_date": "2023-04-17",
+    "artist_id": 6
+  },
+  {
+    "album_id": 18,
+    "album_name": "Especially",
+    "release_date": "2021-03-11",
+    "artist_id": 6
+  },
+  {
+    "album_id": 19,
+    "album_name": "Pay",
+    "release_date": "2024-01-21",
+    "artist_id": 6
+  },
+  {
+    "album_id": 20,
+    "album_name": "Represent",
+    "release_date": "2024-09-21",
+    "artist_id": 7
+  },
+  {
+    "album_id": 21,
+    "album_name": "As",
+    "release_date": "2020-10-22",
+    "artist_id": 8
+  },
+  {
+    "album_id": 22,
+    "album_name": "Region",
+    "release_date": "2020-10-28",
+    "artist_id": 9
+  },
+  {
+    "album_id": 23,
+    "album_name": "Even",
+    "release_date": "2023-06-23",
+    "artist_id": 9
+  },
+  {
+    "album_id": 24,
+    "album_name": "When",
+    "release_date": "2022-10-14",
+    "artist_id": 10
+  },
+  {
+    "album_id": 25,
+    "album_name": "Song",
+    "release_date": "2023-09-08",
+    "artist_id": 10
+  },
+  {
+    "album_id": 26,
+    "album_name": "Budget",
+    "release_date": "2023-02-22",
+    "artist_id": 11
+  },
+  {
+    "album_id": 27,
+    "album_name": "Friend",
+    "release_date": "2022-11-17",
+    "artist_id": 11
+  },
+  {
+    "album_id": 28,
+    "album_name": "Officer",
+    "release_date": "2021-03-14",
+    "artist_id": 11
+  },
+  {
+    "album_id": 29,
+    "album_name": "Save",
+    "release_date": "2024-05-13",
+    "artist_id": 12
+  },
+  {
+    "album_id": 30,
+    "album_name": "Director",
+    "release_date": "2022-12-03",
+    "artist_id": 12
+  },
+  {
+    "album_id": 31,
+    "album_name": "Film",
+    "release_date": "2021-04-24",
+    "artist_id": 13
+  },
+  {
+    "album_id": 32,
+    "album_name": "Listen",
+    "release_date": "2021-08-07",
+    "artist_id": 13
+  },
+  {
+    "album_id": 33,
+    "album_name": "Fall",
+    "release_date": "2024-02-21",
+    "artist_id": 13
+  },
+  {
+    "album_id": 34,
+    "album_name": "Start",
+    "release_date": "2025-04-09",
+    "artist_id": 13
+  },
+  {
+    "album_id": 35,
+    "album_name": "Star",
+    "release_date": "2021-06-01",
+    "artist_id": 13
+  },
+  {
+    "album_id": 36,
+    "album_name": "Then",
+    "release_date": "2021-05-15",
+    "artist_id": 14
+  },
+  {
+    "album_id": 37,
+    "album_name": "Pull",
+    "release_date": "2021-09-18",
+    "artist_id": 14
+  },
+  {
+    "album_id": 38,
+    "album_name": "Ground",
+    "release_date": "2021-04-01",
+    "artist_id": 15
+  },
+  {
+    "album_id": 39,
+    "album_name": "Allow",
+    "release_date": "2022-03-29",
+    "artist_id": 16
+  },
+  {
+    "album_id": 40,
+    "album_name": "Room",
+    "release_date": "2024-09-17",
+    "artist_id": 16
+  },
+  {
+    "album_id": 41,
+    "album_name": "Wife",
+    "release_date": "2021-08-24",
+    "artist_id": 16
+  },
+  {
+    "album_id": 42,
+    "album_name": "Under",
+    "release_date": "2023-10-01",
+    "artist_id": 16
+  },
+  {
+    "album_id": 43,
+    "album_name": "Message",
+    "release_date": "2021-11-09",
+    "artist_id": 16
+  },
+  {
+    "album_id": 44,
+    "album_name": "Box",
+    "release_date": "2022-08-21",
+    "artist_id": 17
+  },
+  {
+    "album_id": 45,
+    "album_name": "True",
+    "release_date": "2022-09-07",
+    "artist_id": 18
+  },
+  {
+    "album_id": 46,
+    "album_name": "Name",
+    "release_date": "2024-06-03",
+    "artist_id": 18
+  },
+  {
+    "album_id": 47,
+    "album_name": "Collection",
+    "release_date": "2020-09-21",
+    "artist_id": 18
+  },
+  {
+    "album_id": 48,
+    "album_name": "Manager",
+    "release_date": "2021-08-15",
+    "artist_id": 19
+  },
+  {
+    "album_id": 49,
+    "album_name": "Girl",
+    "release_date": "2020-12-15",
+    "artist_id": 19
+  },
+  {
+    "album_id": 50,
+    "album_name": "Send",
+    "release_date": "2021-05-29",
+    "artist_id": 19
+  },
+  {
+    "album_id": 51,
+    "album_name": "Us",
+    "release_date": "2021-02-02",
+    "artist_id": 19
+  },
+  {
+    "album_id": 52,
+    "album_name": "Real",
+    "release_date": "2021-03-15",
+    "artist_id": 20
+  },
+  {
+    "album_id": 53,
+    "album_name": "Arm",
+    "release_date": "2023-03-03",
+    "artist_id": 20
+  },
+  {
+    "album_id": 54,
+    "album_name": "Doctor",
+    "release_date": "2024-06-18",
+    "artist_id": 20
+  },
+  {
+    "album_id": 55,
+    "album_name": "Arm",
+    "release_date": "2022-05-07",
+    "artist_id": 21
+  },
+  {
+    "album_id": 56,
+    "album_name": "Head",
+    "release_date": "2024-03-31",
+    "artist_id": 21
+  },
+  {
+    "album_id": 57,
+    "album_name": "Hope",
+    "release_date": "2024-06-16",
+    "artist_id": 22
+  },
+  {
+    "album_id": 58,
+    "album_name": "Response",
+    "release_date": "2021-02-17",
+    "artist_id": 22
+  },
+  {
+    "album_id": 59,
+    "album_name": "Couple",
+    "release_date": "2025-05-16",
+    "artist_id": 22
+  },
+  {
+    "album_id": 60,
+    "album_name": "Foreign",
+    "release_date": "2025-06-23",
+    "artist_id": 22
+  },
+  {
+    "album_id": 61,
+    "album_name": "Gun",
+    "release_date": "2021-09-12",
+    "artist_id": 23
+  },
+  {
+    "album_id": 62,
+    "album_name": "Attorney",
+    "release_date": "2024-02-05",
+    "artist_id": 24
+  },
+  {
+    "album_id": 63,
+    "album_name": "Cup",
+    "release_date": "2021-03-12",
+    "artist_id": 24
+  },
+  {
+    "album_id": 64,
+    "album_name": "Probably",
+    "release_date": "2025-01-23",
+    "artist_id": 24
+  },
+  {
+    "album_id": 65,
+    "album_name": "Black",
+    "release_date": "2022-04-09",
+    "artist_id": 24
+  },
+  {
+    "album_id": 66,
+    "album_name": "Probably",
+    "release_date": "2024-08-31",
+    "artist_id": 24
+  },
+  {
+    "album_id": 67,
+    "album_name": "Professional",
+    "release_date": "2024-02-27",
+    "artist_id": 25
+  },
+  {
+    "album_id": 68,
+    "album_name": "Interest",
+    "release_date": "2021-09-15",
+    "artist_id": 25
+  },
+  {
+    "album_id": 69,
+    "album_name": "Believe",
+    "release_date": "2020-10-09",
+    "artist_id": 25
+  },
+  {
+    "album_id": 70,
+    "album_name": "Able",
+    "release_date": "2022-01-27",
+    "artist_id": 26
+  },
+  {
+    "album_id": 71,
+    "album_name": "Level",
+    "release_date": "2024-11-05",
+    "artist_id": 27
+  },
+  {
+    "album_id": 72,
+    "album_name": "Notice",
+    "release_date": "2022-05-29",
+    "artist_id": 27
+  },
+  {
+    "album_id": 73,
+    "album_name": "Worker",
+    "release_date": "2020-11-16",
+    "artist_id": 27
+  },
+  {
+    "album_id": 74,
+    "album_name": "Increase",
+    "release_date": "2021-09-15",
+    "artist_id": 28
+  },
+  {
+    "album_id": 75,
+    "album_name": "Place",
+    "release_date": "2020-10-15",
+    "artist_id": 29
+  },
+  {
+    "album_id": 76,
+    "album_name": "Story",
+    "release_date": "2021-08-20",
+    "artist_id": 29
+  },
+  {
+    "album_id": 77,
+    "album_name": "Wait",
+    "release_date": "2022-01-03",
+    "artist_id": 29
+  },
+  {
+    "album_id": 78,
+    "album_name": "Fill",
+    "release_date": "2023-11-19",
+    "artist_id": 29
+  },
+  {
+    "album_id": 79,
+    "album_name": "Knowledge",
+    "release_date": "2023-10-07",
+    "artist_id": 30
+  },
+  {
+    "album_id": 80,
+    "album_name": "Item",
+    "release_date": "2021-01-19",
+    "artist_id": 31
+  },
+  {
+    "album_id": 81,
+    "album_name": "Property",
+    "release_date": "2020-10-18",
+    "artist_id": 32
+  },
+  {
+    "album_id": 82,
+    "album_name": "Clear",
+    "release_date": "2024-09-26",
+    "artist_id": 32
+  },
+  {
+    "album_id": 83,
+    "album_name": "Yourself",
+    "release_date": "2022-08-28",
+    "artist_id": 32
+  },
+  {
+    "album_id": 84,
+    "album_name": "Water",
+    "release_date": "2022-07-13",
+    "artist_id": 32
+  },
+  {
+    "album_id": 85,
+    "album_name": "Team",
+    "release_date": "2024-04-22",
+    "artist_id": 33
+  },
+  {
+    "album_id": 86,
+    "album_name": "Any",
+    "release_date": "2021-12-01",
+    "artist_id": 34
+  },
+  {
+    "album_id": 87,
+    "album_name": "Executive",
+    "release_date": "2024-06-21",
+    "artist_id": 35
+  },
+  {
+    "album_id": 88,
+    "album_name": "Stuff",
+    "release_date": "2024-08-18",
+    "artist_id": 35
+  },
+  {
+    "album_id": 89,
+    "album_name": "Program",
+    "release_date": "2022-08-19",
+    "artist_id": 35
+  },
+  {
+    "album_id": 90,
+    "album_name": "Everything",
+    "release_date": "2022-04-22",
+    "artist_id": 35
+  },
+  {
+    "album_id": 91,
+    "album_name": "Behind",
+    "release_date": "2023-08-20",
+    "artist_id": 36
+  },
+  {
+    "album_id": 92,
+    "album_name": "Dark",
+    "release_date": "2022-01-23",
+    "artist_id": 36
+  },
+  {
+    "album_id": 93,
+    "album_name": "Writer",
+    "release_date": "2020-12-17",
+    "artist_id": 36
+  },
+  {
+    "album_id": 94,
+    "album_name": "Role",
+    "release_date": "2024-07-16",
+    "artist_id": 37
+  },
+  {
+    "album_id": 95,
+    "album_name": "Even",
+    "release_date": "2025-06-07",
+    "artist_id": 37
+  },
+  {
+    "album_id": 96,
+    "album_name": "Can",
+    "release_date": "2024-09-03",
+    "artist_id": 38
+  },
+  {
+    "album_id": 97,
+    "album_name": "Across",
+    "release_date": "2023-10-15",
+    "artist_id": 38
+  },
+  {
+    "album_id": 98,
+    "album_name": "Write",
+    "release_date": "2021-06-27",
+    "artist_id": 38
+  },
+  {
+    "album_id": 99,
+    "album_name": "International",
+    "release_date": "2024-08-13",
+    "artist_id": 39
+  },
+  {
+    "album_id": 100,
+    "album_name": "Every",
+    "release_date": "2024-07-30",
+    "artist_id": 40
+  },
+  {
+    "album_id": 101,
+    "album_name": "Central",
+    "release_date": "2025-02-10",
+    "artist_id": 40
+  },
+  {
+    "album_id": 102,
+    "album_name": "List",
+    "release_date": "2024-05-15",
+    "artist_id": 40
+  },
+  {
+    "album_id": 103,
+    "album_name": "Information",
+    "release_date": "2024-07-01",
+    "artist_id": 40
+  }
+]
