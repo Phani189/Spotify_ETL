@@ -1,5 +1,6 @@
 --Change Default Role to System Admin
 USE ROLE SYSADMIN;
+
 --Warehouse: python_etl_wh(for all Data loading from stages to tables)
 CREATE WAREHOUSE IF NOT EXISTS python_etl_wh
 WAREHOUSE_SIZE = 'SMALL'
