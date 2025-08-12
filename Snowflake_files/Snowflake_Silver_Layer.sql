@@ -1,4 +1,6 @@
+
 USE ROLE SYSADMIN;
+
 
 -- Create a Warehouse for Silver ETL operations
 
@@ -58,7 +60,9 @@ CREATE OR REPLACE TABLE SPOTIFY_SILVER_DB.SPOTIFY_SILVER_SCHEMA.ARTISTS_SILVER
     name STRING,
     country STRING,
     popularity STRING,
-    genre STRING
+    genre STRING,
+    latest_release DATE,
+    is_high_popular BOOLEAN DEFAULT TRUE
 );
 
 CREATE OR REPLACE TABLE SPOTIFY_SILVER_DB.SPOTIFY_SILVER_SCHEMA.ALBUMS_SILVER
@@ -67,7 +71,6 @@ CREATE OR REPLACE TABLE SPOTIFY_SILVER_DB.SPOTIFY_SILVER_SCHEMA.ALBUMS_SILVER
     album_name STRING,
     artist_id INT,
     release_date DATE,
-    genre STRING,
     latest_release_date DATE,
     total_songs INT,
     is_active BOOLEAN DEFAULT TRUE
@@ -79,10 +82,8 @@ CREATE OR REPLACE TABLE SPOTIFY_SILVER_DB.SPOTIFY_SILVER_SCHEMA.SONGS_SILVER
     song_name STRING,
     album_id INT,
     artist_id INT,
-    release_date DATE,
     genre STRING,
-    duration STRING,
-    category STRING
+    duration STRING
 );
 
 
@@ -92,11 +93,8 @@ CREATE OR REPLACE TABLE SPOTIFY_SILVER_DB.SPOTIFY_SILVER_SCHEMA.STREAM_ACTIVITY_
     user_id INT,
     artist_id INT,
     song_id INT,
-    stream_date DATE,
-    stream_time STRING
     listening_time INT,
     device_type STRING,
-    album_id INT,
     subscription_type STRING,
     subscription_category STRING,
     is_liked BOOLEAN DEFAULT FALSE,
@@ -104,7 +102,7 @@ CREATE OR REPLACE TABLE SPOTIFY_SILVER_DB.SPOTIFY_SILVER_SCHEMA.STREAM_ACTIVITY_
 
 );
 
-
+-- USERS_SILVER
 INSERT INTO SPOTIFY_SILVER_DB.SPOTIFY_SILVER_SCHEMA.USERS_SILVER
 SELECT
     U.user_id,
@@ -114,15 +112,15 @@ SELECT
     U.address,
     U.device_type,
     U.listening_time,
-    COALESCE(U.subscription_type,'New User') AS subscription_type,
+    COALESCE(U.subscription_type, 'New User') AS subscription_type,
     U.subscription_category,
-    S.DATEDIFF(DAY, CURRENT_DATE, S.end_date) AS subscription_days_left
+    DATEDIFF(day, CURRENT_DATE, S.end_date) AS subscription_days_left
 FROM SPOTIFY_BRONZE_DB.SPOTIFY_BRONZE_SCHEMA.USERS_BRONZE U
 LEFT JOIN SPOTIFY_BRONZE_DB.SPOTIFY_BRONZE_SCHEMA.SUBSCRIPTIONS_BRONZE S
-ON U.user_id = S.user_id
-WHERE SUBSCRIPTIONS_BRONZE.subscription_type != 'Free';
+    ON U.user_id = S.user_id
+WHERE S.subscription_type != 'Free';
 
-
+-- SUBSCRIPTIONS_SILVER
 INSERT INTO SPOTIFY_SILVER_DB.SPOTIFY_SILVER_SCHEMA.SUBSCRIPTIONS_SILVER
 SELECT
     user_id,
@@ -136,10 +134,9 @@ SELECT
         ELSE FALSE 
     END AS subscription_expired
 FROM SPOTIFY_BRONZE_DB.SPOTIFY_BRONZE_SCHEMA.SUBSCRIPTIONS_BRONZE
-WHERE subscription_type != 'Free'
-;
+WHERE subscription_type != 'Free';
 
-
+-- ARTISTS_SILVER
 INSERT INTO SPOTIFY_SILVER_DB.SPOTIFY_SILVER_SCHEMA.ARTISTS_SILVER
 SELECT
     A.artist_id,
@@ -147,11 +144,11 @@ SELECT
     A.country,
     A.popularity,
     A.genre,
-    A.latest_release_date,
+    L.latest_release_date,
     CASE 
         WHEN A.popularity >= 50 THEN TRUE 
         ELSE FALSE 
-    END AS is_active
+    END AS is_high_popular
 FROM SPOTIFY_BRONZE_DB.SPOTIFY_BRONZE_SCHEMA.ARTISTS_BRONZE A 
 LEFT JOIN (
     SELECT 
@@ -159,21 +156,20 @@ LEFT JOIN (
         MAX(release_date) AS latest_release_date 
     FROM SPOTIFY_BRONZE_DB.SPOTIFY_BRONZE_SCHEMA.ALBUMS_BRONZE 
     GROUP BY artist_id
-) AS L ON A.artist_id = L.artist_id
+) L ON A.artist_id = L.artist_id
 WHERE A.popularity IS NOT NULL;
 
-
+-- ALBUMS_SILVER
 INSERT INTO SPOTIFY_SILVER_DB.SPOTIFY_SILVER_SCHEMA.ALBUMS_SILVER
 SELECT
     A.album_id,
     A.album_name,
     A.artist_id,
     A.release_date,
-    A.genre,
     L.latest_release_date,
     COUNT(S.song_id) AS total_songs,
     CASE 
-        WHEN L.latest_release_date >= DATEADD(YEAR, -1, CURRENT_DATE) THEN TRUE 
+        WHEN L.latest_release_date >= DATEADD(year, -1, CURRENT_DATE) THEN TRUE 
         ELSE FALSE 
     END AS is_active
 FROM SPOTIFY_BRONZE_DB.SPOTIFY_BRONZE_SCHEMA.ALBUMS_BRONZE A
@@ -183,65 +179,44 @@ LEFT JOIN (
         MAX(release_date) AS latest_release_date 
     FROM SPOTIFY_BRONZE_DB.SPOTIFY_BRONZE_SCHEMA.ALBUMS_BRONZE 
     GROUP BY album_id
-) AS L ON A.album_id = L.album_id
-LEFT JOIN SPOTIFY_BRONZE_DB.SPOTIFY_BRONZE_SCHEMA.SONGS_BRONZE S ON A.album_id = S.album_id
+) L ON A.album_id = L.album_id
+LEFT JOIN SPOTIFY_BRONZE_DB.SPOTIFY_BRONZE_SCHEMA.SONGS_BRONZE S 
+    ON A.album_id = S.album_id
 GROUP BY 
     A.album_id, 
     A.album_name, 
     A.artist_id, 
     A.release_date, 
-    A.genre, 
-    L.latest_release_date
-;   
+    L.latest_release_date;
 
 
+-- SONGS_SILVER
 INSERT INTO SPOTIFY_SILVER_DB.SPOTIFY_SILVER_SCHEMA.SONGS_SILVER
 SELECT
     song_id,
     name AS song_name,
     album_id,
     artist_id,
-    release_date,
     genre,
     duration,
-    CASE
-        WHEN release_date >= DATEADD(YEAR, -1, CURRENT_DATE) THEN 'New Release'
-        WHEN release_date < DATEADD(YEAR, -1, CURRENT_DATE) AND release_date >= DATEADD(YEAR, -5, CURRENT_DATE) THEN 'Old Release'
-        ELSE 'Classic'
-    END AS category
 FROM SPOTIFY_BRONZE_DB.SPOTIFY_BRONZE_SCHEMA.SONGS_BRONZE
 WHERE genre IS NOT NULL
-AND duration IS NOT NULL;
+  AND duration IS NOT NULL;
 
 
-
-INSERT INTO SPOTIFY_SILVER_DB.SPOTIFY_SILVER_SCHEMA.PLAYLISTS_SILVER
-SELECT
-    playlist_id,
-    playlist_name,
-    user_id,
-    song_id,
-    created_at
-FROM SPOTIFY_BRONZE_DB.SPOTIFY_BRONZE_SCHEMA.PLAYLISTS_BRONZE
-WHERE created_at >= DATEADD(MONTH, -6, CURRENT_DATE);
-
-
+-- STREAM_ACTIVITY_SILVER
 INSERT INTO SPOTIFY_SILVER_DB.SPOTIFY_SILVER_SCHEMA.STREAM_ACTIVITY_SILVER
 SELECT
-    user_id INT,
-    artist_id INT,
-    song_id INT,
-    play_count STRING,
-    listening_time STRING,
-    device_type STRING,
-    album_id INT,
-    timestamp TIMESTAMP,
-    is_liked BOOLEAN,
-    is_skipped BOOLEAN
+    CAST(user_id AS INT),
+    CAST(artist_id AS INT),
+    CAST(song_id AS INT),
+    CAST(play_count AS STRING),
+    CAST(listening_time AS STRING),
+    CAST(device_type AS STRING),
+    CAST(timestamp AS TIMESTAMP),
+    CAST(is_liked AS BOOLEAN),
+    CAST(is_skipped AS BOOLEAN)
 FROM SPOTIFY_BRONZE_DB.SPOTIFY_BRONZE_SCHEMA.STREAM_ACTIVITY_BRONZE
 WHERE device_type IS NOT NULL
-AND listening_time IS NOT NULL;
-
-
-
+  AND listening_time IS NOT NULL;
 

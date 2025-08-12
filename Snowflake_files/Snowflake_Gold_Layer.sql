@@ -1,3 +1,4 @@
+
 USE ROLE SYSADMIN;
 
 -- Create a Warehouse for Gold ETL operations
@@ -25,7 +26,7 @@ USE DATABASE SPOTIFY_GOLD_DB;
 USE SCHEMA SPOTIFY_GOLD_DB.SPOTIFY_GOLD_SCHEMA;
 
 -- Create Tables for Gold Layer
-
+-- USERS_GOLD
 CREATE OR REPLACE TABLE SPOTIFY_GOLD_DB.SPOTIFY_GOLD_SCHEMA.USERS_GOLD
 (
     user_id INT,
@@ -34,14 +35,14 @@ CREATE OR REPLACE TABLE SPOTIFY_GOLD_DB.SPOTIFY_GOLD_SCHEMA.USERS_GOLD
     email STRING,
     address STRING,
     device_type STRING,
-    listening_time STRING,
+    listening_time INT,
     subscription_type STRING,
     subscription_category STRING,
-    subscription_days_left INT
+    subscription_days_left INT,
     is_expired BOOLEAN DEFAULT FALSE
 );
 
-
+-- SUBSCRIPTIONS_GOLD
 CREATE OR REPLACE TABLE SPOTIFY_GOLD_DB.SPOTIFY_GOLD_SCHEMA.SUBSCRIPTIONS_GOLD
 (
     user_id INT,
@@ -53,7 +54,7 @@ CREATE OR REPLACE TABLE SPOTIFY_GOLD_DB.SPOTIFY_GOLD_SCHEMA.SUBSCRIPTIONS_GOLD
     subscription_expired BOOLEAN DEFAULT FALSE
 );
 
-
+-- ARTISTS_GOLD
 CREATE OR REPLACE TABLE SPOTIFY_GOLD_DB.SPOTIFY_GOLD_SCHEMA.ARTISTS_GOLD
 (
     artist_id INT,
@@ -63,7 +64,7 @@ CREATE OR REPLACE TABLE SPOTIFY_GOLD_DB.SPOTIFY_GOLD_SCHEMA.ARTISTS_GOLD
     genre STRING
 );
 
-
+-- ALBUMS_GOLD
 CREATE OR REPLACE TABLE SPOTIFY_GOLD_DB.SPOTIFY_GOLD_SCHEMA.ALBUMS_GOLD
 (
     album_id INT,
@@ -72,31 +73,27 @@ CREATE OR REPLACE TABLE SPOTIFY_GOLD_DB.SPOTIFY_GOLD_SCHEMA.ALBUMS_GOLD
     artist_id INT
 );
 
-
-
+-- SONGS_GOLD
 CREATE OR REPLACE TABLE SPOTIFY_GOLD_DB.SPOTIFY_GOLD_SCHEMA.SONGS_GOLD
 (
     song_id INT,
-    name STRING,
+    song_name STRING,
     album_id INT,
     artist_id INT,
     duration STRING,
-    genre STRING,
-    release_date DATE
+    genre STRING
 );
 
-
-
+-- STREAM_ACTIVITY_GOLD
 CREATE OR REPLACE TABLE SPOTIFY_GOLD_DB.SPOTIFY_GOLD_SCHEMA.STREAM_ACTIVITY_GOLD
 (
     user_id INT,
     artist_id INT,
     song_id INT,
-    stream_date DATE,
+    stream_date TIMESTAMP,
     stream_count INT,
     listening_time STRING,
     device_type STRING,
-    album_id INT,
     subscription_type STRING,
     subscription_category STRING,
     is_liked BOOLEAN DEFAULT FALSE,
@@ -104,16 +101,8 @@ CREATE OR REPLACE TABLE SPOTIFY_GOLD_DB.SPOTIFY_GOLD_SCHEMA.STREAM_ACTIVITY_GOLD
 );
 
 
-CREATE OR REPLACE TABLE SPOTIFY_GOLD_DB.SPOTIFY_GOLD_SCHEMA.PLAYLISTS_GOLD
-(
-    playlist_id INT,
-    playlist_name STRING,
-    user_id INT,
-    song_id INT,
-    created_at TIMESTAMP
-);
 
-
+-- USERS_GOLD INSERT
 INSERT INTO SPOTIFY_GOLD_DB.SPOTIFY_GOLD_SCHEMA.USERS_GOLD
 SELECT
     U.user_id,
@@ -122,18 +111,17 @@ SELECT
     U.email,
     U.address,
     U.device_type,
-    U.listening_time,
+    CAST(U.listening_time AS STRING),
     S.subscription_type,
     S.subscription_category,
-    DATEDIFF(DAY, CURRENT_DATE, S.end_date) AS subscription_days_left,
-    CASE WHEN DATEDIFF(DAY, CURRENT_DATE, S.end_date) <= 0 THEN TRUE ELSE FALSE END AS is_expired
+    DATEDIFF(day, CURRENT_DATE, S.end_date) AS subscription_days_left,
+    CASE WHEN DATEDIFF(day, CURRENT_DATE, S.end_date) <= 0 THEN TRUE ELSE FALSE END AS is_expired
 FROM SPOTIFY_SILVER_DB.SPOTIFY_SILVER_SCHEMA.USERS_SILVER U
 LEFT JOIN SPOTIFY_SILVER_DB.SPOTIFY_SILVER_SCHEMA.SUBSCRIPTIONS_SILVER S
-ON U.user_id = S.user_id
+    ON U.user_id = S.user_id
 WHERE S.subscription_type != 'Free';
 
-
-
+-- SUBSCRIPTIONS_GOLD INSERT
 INSERT INTO SPOTIFY_GOLD_DB.SPOTIFY_GOLD_SCHEMA.SUBSCRIPTIONS_GOLD
 SELECT
     user_id,
@@ -148,8 +136,7 @@ SELECT
     END AS subscription_expired
 FROM SPOTIFY_SILVER_DB.SPOTIFY_SILVER_SCHEMA.SUBSCRIPTIONS_SILVER;
 
-
-
+-- ARTISTS_GOLD INSERT
 INSERT INTO SPOTIFY_GOLD_DB.SPOTIFY_GOLD_SCHEMA.ARTISTS_GOLD
 SELECT
     artist_id,
@@ -158,6 +145,8 @@ SELECT
     popularity,
     genre
 FROM SPOTIFY_SILVER_DB.SPOTIFY_SILVER_SCHEMA.ARTISTS_SILVER;
+
+-- ALBUMS_GOLD INSERT
 INSERT INTO SPOTIFY_GOLD_DB.SPOTIFY_GOLD_SCHEMA.ALBUMS_GOLD
 SELECT
     album_id,
@@ -166,53 +155,42 @@ SELECT
     artist_id
 FROM SPOTIFY_SILVER_DB.SPOTIFY_SILVER_SCHEMA.ALBUMS_SILVER;
 
+-- SONGS_GOLD INSERT
 INSERT INTO SPOTIFY_GOLD_DB.SPOTIFY_GOLD_SCHEMA.SONGS_GOLD
 SELECT
     song_id,
-    name,
+    song_name,
     album_id,
     artist_id,
     duration,
-    genre,
-    release_date
+    genre
 FROM SPOTIFY_SILVER_DB.SPOTIFY_SILVER_SCHEMA.SONGS_SILVER;
 
-
+-- STREAM_ACTIVITY_GOLD INSERT
 INSERT INTO SPOTIFY_GOLD_DB.SPOTIFY_GOLD_SCHEMA.STREAM_ACTIVITY_GOLD
 SELECT
     user_id,
     artist_id,
     song_id,
-    stream_date,
+    CURRENT_DATE AS stream_date,
     COUNT(*) AS stream_count,
-    listening_time,
+    CAST(listening_time as INT),
     device_type,
-    album_id,
     subscription_type,
     subscription_category,
-    CASE WHEN is_liked = TRUE THEN TRUE ELSE FALSE END AS is_liked,
-    CASE WHEN is_skipped = TRUE THEN TRUE ELSE FALSE END AS is_skipped
+    CASE WHEN is_liked THEN TRUE ELSE FALSE END AS is_liked,
+    CASE WHEN is_skipped THEN TRUE ELSE FALSE END AS is_skipped
 FROM SPOTIFY_SILVER_DB.SPOTIFY_SILVER_SCHEMA.STREAM_ACTIVITY_SILVER
 GROUP BY
     user_id,
     artist_id,
     song_id,
-    stream_date,
     listening_time,
     device_type,
-    album_id,
     subscription_type,
     subscription_category,
     is_liked,
     is_skipped;
-
-
-
-
-
-
-
-
 
 
 
