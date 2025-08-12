@@ -1,4 +1,4 @@
-USE ROLE SYSADMIN
+USE ROLE SYSADMIN;
 
 -- Create a Warehouse for Silver ETL operations
 
@@ -14,13 +14,13 @@ USE WAREHOUSE SILVER_ETL_WH;
 -- Create Database and Schema for Silver Layer
 
 CREATE OR REPLACE DATABASE SPOTIFY_SILVER_DB
-WITH COMMENT = 'Database for Silver Layer of Spotify Data';
+COMMENT = 'Database for Silver Layer of Spotify Data';
 
 
 USE DATABASE SPOTIFY_SILVER_DB;
 
 CREATE OR REPLACE SCHEMA SPOTIFY_SILVER_DB.SPOTIFY_SILVER_SCHEMA
-WITH COMMENT = 'Schema for Silver Layer of Spotify Data';
+COMMENT = 'Schema for Silver Layer of Spotify Data';
 
 USE DATABASE SPOTIFY_SILVER_DB;
 USE SCHEMA SPOTIFY_SILVER_DB.SPOTIFY_SILVER_SCHEMA;
@@ -35,7 +35,7 @@ CREATE OR REPLACE TABLE SPOTIFY_SILVER_DB.SPOTIFY_SILVER_SCHEMA.USERS_SILVER
     email STRING,
     address STRING,
     device_type STRING,
-    listening_time STRING,
+    listening_time INT,
     subscription_type STRING,
     subscription_category STRING,
     subscription_days_left INT
@@ -82,17 +82,10 @@ CREATE OR REPLACE TABLE SPOTIFY_SILVER_DB.SPOTIFY_SILVER_SCHEMA.SONGS_SILVER
     release_date DATE,
     genre STRING,
     duration STRING,
-    category STRING,
+    category STRING
 );
 
-CREATE OR REPLACE TABLE SPOTIFY_SILVER_DB.SPOTIFY_SILVER_SCHEMA.PLAYLISTS_SILVER
-(
-    playlist_id INT,
-    playlist_name STRING,
-    user_id INT,
-    song_id INT,
-    created_at TIMESTAMP
-);
+
 
 CREATE OR REPLACE TABLE SPOTIFY_SILVER_DB.SPOTIFY_SILVER_SCHEMA.STREAM_ACTIVITY_SILVER 
 (
@@ -101,6 +94,14 @@ CREATE OR REPLACE TABLE SPOTIFY_SILVER_DB.SPOTIFY_SILVER_SCHEMA.STREAM_ACTIVITY_
     song_id INT,
     stream_date DATE,
     stream_time STRING
+    listening_time INT,
+    device_type STRING,
+    album_id INT,
+    subscription_type STRING,
+    subscription_category STRING,
+    is_liked BOOLEAN DEFAULT FALSE,
+    is_skipped BOOLEAN DEFAULT FALSE
+
 );
 
 

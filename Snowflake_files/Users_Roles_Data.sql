@@ -22,5 +22,5 @@ COMMENT = 'User for Python ETL operations'
 MUST_CHANGE_PASSWORD = FALSE;
 
 -- 3. Assign Role to User
-GRANT ROLE python_loader_role TO USER python_user;
+GRANT ROLE python_access_role TO USER python_user_login;
 
