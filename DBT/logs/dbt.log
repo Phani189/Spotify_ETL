@@ -1,0 +1,89 @@
+[0m19:43:45.639870 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C702F12A50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C77EAC6FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C703A3DBD0>]}
+
+
+============================== 19:43:45.661263 | 58e8dbb2-cb92-40ad-9df5-4d2ac4b4a552 ==============================
+[0m19:43:45.661263 [info ] [MainThread]: Running with dbt=1.10.6
+[0m19:43:45.662179 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\2320859\\.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt init spotify_dbt', 'send_anonymous_usage_stats': 'True'}
+[0m19:43:45.883353 [debug] [MainThread]: Starter project path: C:\Program Files\Python313\Lib\site-packages\dbt\include\starter_project
+[0m19:43:46.159364 [info ] [MainThread]: 
+Your new dbt project "spotify_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m19:43:46.160845 [info ] [MainThread]: Setting up your profile.
+[0m19:45:46.946530 [info ] [MainThread]: Profile spotify_dbt written to C:\Users\2320859\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m19:45:46.954522 [debug] [MainThread]: Command `dbt init` succeeded at 19:45:46.954296 after 121.56 seconds
+[0m19:45:46.955259 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C71E1D2D70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C705123BF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C71E17BF00>]}
+[0m19:45:46.956051 [debug] [MainThread]: Flushing usage events
+[0m19:45:47.830517 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:46:09.435051 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E74B116A50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E746CD6FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E74BC29BD0>]}
+
+
+============================== 19:46:09.455940 | ff07e9a7-416d-4a5f-9f80-046764e52472 ==============================
+[0m19:46:09.455940 [info ] [MainThread]: Running with dbt=1.10.6
+[0m19:46:09.457021 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\2320859\\.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'log_format': 'default', 'invocation_command': 'dbt debug', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m19:46:09.710774 [info ] [MainThread]: dbt version: 1.10.6
+[0m19:46:09.712038 [info ] [MainThread]: python version: 3.13.2
+[0m19:46:09.713010 [info ] [MainThread]: python path: C:\Program Files\Python313\python.exe
+[0m19:46:09.714012 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m19:46:16.495186 [info ] [MainThread]: Using profiles dir at C:\Users\2320859\.dbt
+[0m19:46:16.495924 [info ] [MainThread]: Using profiles.yml file at C:\Users\2320859\.dbt\profiles.yml
+[0m19:46:16.496434 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\2320859\OneDrive - Cognizant\Desktop\Spotify_ETL_Pipeline\DBT\dbt_project.yml
+[0m19:46:16.496953 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m19:46:16.498026 [debug] [MainThread]: Command `dbt debug` failed at 19:46:16.497914 after 7.28 seconds
+[0m19:46:16.498370 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E7664A8C30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E766496570>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E7664DC380>]}
+[0m19:46:16.498709 [debug] [MainThread]: Flushing usage events
+[0m19:46:16.567275 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:51:32.335817 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F00B126A50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F006CE6FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F00BC39BD0>]}
+
+
+============================== 19:51:32.351185 | 3fcdfe20-9bd3-428b-a989-d1fbb52b001c ==============================
+[0m19:51:32.351185 [info ] [MainThread]: Running with dbt=1.10.6
+[0m19:51:32.352561 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\2320859\\.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m19:51:32.541943 [info ] [MainThread]: dbt version: 1.10.6
+[0m19:51:32.543254 [info ] [MainThread]: python version: 3.13.2
+[0m19:51:32.544372 [info ] [MainThread]: python path: C:\Program Files\Python313\python.exe
+[0m19:51:32.545293 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m19:51:38.140255 [info ] [MainThread]: Using profiles dir at C:\Users\2320859\.dbt
+[0m19:51:38.141662 [info ] [MainThread]: Using profiles.yml file at C:\Users\2320859\.dbt\profiles.yml
+[0m19:51:38.142605 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\2320859\OneDrive - Cognizant\Desktop\Spotify_ETL_Pipeline\DBT\dbt_project.yml
+[0m19:51:38.143862 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m19:51:38.145516 [debug] [MainThread]: Command `dbt debug` failed at 19:51:38.145378 after 6.00 seconds
+[0m19:51:38.146085 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F0264B8C30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F0264A6570>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F0264EC380>]}
+[0m19:51:38.146835 [debug] [MainThread]: Flushing usage events
+[0m19:51:39.174994 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:59:26.466589 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022306936A50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022302566FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022307449BD0>]}
+
+
+============================== 19:59:26.485288 | 379ed18a-bba4-45f4-bd2c-dccda42e748a ==============================
+[0m19:59:26.485288 [info ] [MainThread]: Running with dbt=1.10.6
+[0m19:59:26.487156 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\2320859\\.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m19:59:26.737684 [info ] [MainThread]: dbt version: 1.10.6
+[0m19:59:26.738717 [info ] [MainThread]: python version: 3.13.2
+[0m19:59:26.739692 [info ] [MainThread]: python path: C:\Program Files\Python313\python.exe
+[0m19:59:26.740645 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m19:59:34.522587 [info ] [MainThread]: Using profiles dir at C:\Users\2320859\.dbt
+[0m19:59:34.523876 [info ] [MainThread]: Using profiles.yml file at C:\Users\2320859\.dbt\profiles.yml
+[0m19:59:34.524787 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\2320859\OneDrive - Cognizant\Desktop\Spotify_ETL_Pipeline\DBT\dbt_project.yml
+[0m19:59:34.525617 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m19:59:34.527217 [debug] [MainThread]: Command `dbt debug` failed at 19:59:34.527010 after 8.29 seconds
+[0m19:59:34.529124 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022321CCCC30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022321CB6570>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022321CE0380>]}
+[0m19:59:34.530839 [debug] [MainThread]: Flushing usage events
+[0m19:59:35.318101 [debug] [MainThread]: An error was encountered while trying to flush usage events

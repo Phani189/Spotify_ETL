@@ -5,7 +5,7 @@ USE ROLE SECURITYADMIN;
 CREATE OR REPLACE ROLE dbt_access_role;
 
 -- Create a user for DBT and assign the role
-CREATE USER dbt_login_user
+CREATE OR REPLACE USER dbt_login_user
     PASSWORD = 'phanidbtaccess@66'
     DEFAULT_ROLE = dbt_access_role
     DEFAULT_WAREHOUSE = dbt_transforming
